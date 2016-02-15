@@ -1,5 +1,6 @@
 ---
 layout: default
+sum : 0
 ---
 
 <div class="home">
@@ -26,6 +27,7 @@ layout: default
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        {% assign sum = sum | plus: post.hours %}
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -33,6 +35,7 @@ layout: default
       </li>
     {% endfor %}
   </ul>
+  <h3>Horas faltando: {{ 90 | minus: sum }}</h3>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
