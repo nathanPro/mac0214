@@ -1,70 +1,23 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>MAC0214: Atividade curricular em cultura e extensão by nathanPro</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-dark.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+---
+layout: default
+---
 
-  </head>
-  <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/nathanPro/mac0214">View On GitHub</a></li>
-          <li class="downloads"><a href="https://github.com/nathanPro/mac0214/zipball/master">ZIP</a></li>
-          <li class="downloads"><a href="https://github.com/nathanPro/mac0214/tarball/master">TAR</a></li>
-          <li class="title">DOWNLOADS</li>
-        </nav>
-      </div><!-- end header -->
+<div class="home">
 
-    <div class="wrapper">
+  <h1 class="page-heading">Posts</h1>
 
-      <section>
-        <div id="title">
-          <h1>MAC0214: Atividade curricular em cultura e extensão</h1>
-          <p>Treino organizado em programação competitiva</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/nathanPro">nathanPro</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
-        </div>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h1>
-<a id="projeto" class="anchor" href="#projeto" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Projeto</h1>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
-<p>O enfoque deste projeto é achar uma forma de documentar e organizar meu treino de programação competitiva, documentando as horas de trabalho envolvidas. As atividades de treino se dividem em três:</p>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-<ul>
-<li>Competições e simulados.</li>
-<li>
-<em>Upsolving</em>, de problemas não resolvidos de competições passadas.</li>
-<li>Estudo em si de algoritmos, estruturas de dados e outras teorias novas.</li>
-</ul>
-
-<p>Todas são importantes para se melhorar, no entanto os simulados merecem um destaque por alimentarem as demais. É na tentativa de resolver problemas que se desenvolve o raciocínio e se percebe a necessidade de mais teoria. Mais ainda, estudo teórico é um tanto quanto complicado de documentar, e pessoalmente ainda não sei uma forma de registrar estudo que não seja improdutiva. Creio que o dia que encontrarmos uma boa forma de assegurar que um tópico foi estudado de forma produtiva em uma carga horária específica, poderíamos abrir mão das avaliações nas universidades. De qualquer forma, aceito sugestões.</p>
-
-<p>Dito tudo isto, o principal esforço será em documentar as horas investidas em simulados, e em paralelo gostaria de fazer resumos de problemas resolvidos ou assuntos estudados. Pretendo cumprir a carga horária com competições. Segundo o calendário da USP, temos 19 semanas nesse semestre. Se em cada uma delas eu investir pelo menos 5h simulando, chego a 90h na penúltima semana.</p>
-
-<h3>
-<a id="competições" class="anchor" href="#competi%C3%A7%C3%B5es" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Competições</h3>
-
-<ul>
-<li>15/02/2016 : <a href="http://codeforces.com/contest/582">Codeforces #332 div 1</a>, 2h<br>
-<strong>Total de horas</strong>: 2h</li>
-</ul>
-      </section>
-
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
-  </body>
-</html>
+</div>
