@@ -23,6 +23,7 @@ sum : 0
   </p>
 
 
+  <h1> Competições </h1>
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
@@ -37,6 +38,6 @@ sum : 0
   </ul>
   <h3>Horas faltando: {{ 90 | minus: sum }}</h3>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p class="rss-subscribe">Alguém ainda usa <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>?</p>
 
 </div>
