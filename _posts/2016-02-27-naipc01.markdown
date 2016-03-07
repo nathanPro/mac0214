@@ -1,0 +1,14 @@
+---
+layout: post
+title: "NAIPC"
+date:  2016-02-15 20:04:00 +0000
+hours: 5
+categories: simulado 
+---
+[Problemas](https://open.kattis.com/contests/naipc16-p01)
+
+## Resolvidos
+* B
+* F
+* I
+* L
