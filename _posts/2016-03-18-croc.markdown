@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Codeforces 655"
-date:  2016-02-15 20:04:00 +0000
+date:  2016-03-18 20:04:00 +0000
 hours: 2
 categories: codeforces 
 ---
