@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Seletiva ICMC"
+date:  2016-05-04 00:00:00 +0000
+hours: 5
+categories: simulado 
+---
+[Problemas](http://codeforces.com/gym/100733)
+
+## Resolvidos
+* A
+* C
+* D
+* E
+* G
+* H

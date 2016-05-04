@@ -1,0 +1,13 @@
+---
+layout: post
+title: "CSAcademy Beta round 4"
+date:  2016-04-26 00:00:00 +0000
+hours: 2
+categories: codeforces 
+---
+[Problemas](https://csacademy.com/contest/beta-round-4/)
+
+## Resolvidos
+* A
+* B
+* C
