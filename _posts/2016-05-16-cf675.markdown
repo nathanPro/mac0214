@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Codeforces 675"
+date:  2016-05-16 00:00:00 +0000
+hours: 2
+categories: codeforces 
+---
+[Problemas](http://codeforces.com/contest/675)
+
+## Resolvidos
+* A
+* D
