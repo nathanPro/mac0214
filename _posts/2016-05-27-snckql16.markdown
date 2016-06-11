@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Codechef qualification round A"
+date:  2016-05-27 00:00:00 +0000
+hours: 2
+categories: codechef 
+---
+[Problemas](https://www.codechef.com/SNCKQL16)
+
+## Resolvidos
+* kttable
+* mmsum
