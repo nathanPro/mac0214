@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Yandex round 01"
+date:  2016-06-04 00:00:00 +0000
+hours: 1.6
+categories: yandex 
+---
+[Problemas](https://contest.yandex.com/algorithm2016/contest/2529/problems/)
+
+## Resolvidos
+* A
+* B
+* C
